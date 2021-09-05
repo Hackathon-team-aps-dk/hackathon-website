@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The site made by students of aps dhaula kuan for the september hackathon event">
+    <meta name="keywords" content="hackathon event , september , project , codage , project codage , project codage hackathon , hackcom , hackcom fest ,codage hackathon">
+    <title>Project Ridgewood</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="/scripts/jquery.js"></script>
+    <link rel="icon" href="/assets/favicon.png" type="image/x-icon" sizes="16x16"  />
+</head>
+<body>
+    <button id="hamburger"><img src="/assets/hamburger.png" alt="Menu"></button>
+    <div id="header">
+        <button id="close"><img src="/assets/close.png" alt="close Menu"></button>
+        <ul>
+            <li><a href="/pages/index.html"> Home</a></li>
+            <li><a href="/pages/inspiration.html"> Inspiration</a></li>
+            <li><a href="/pages/about.html"> About Us</a></li>
+        </ul>
+    </div>
+    <h1 class="pageTitle">PROJECT RIDGEWOOD </title></h1>
+    <h6 class="tagLine">YOUR PORTFOLIO MANAGER</h6>
+
+    <div id="form-el">
+        <label>Enter Your Name:</label>
+        <br><br>
+        <input type="text">
+        <br><br><br>
+        <label for="">Enter Your Age:</label>
+        <br> <br>
+        <input type="number">
+        <br><br><br>
+        <label>Enter your yearly salary:</label>
+        <br><br>
+        <label id='ruppee'>₹</label><input type="number" name="salary" id="salary-el">
+        <br><br><br>
+        <label for="">Enter Your Average Yearly Expenses</label>
+        <br><br>
+        <label id='ruppee'>₹</label><input type="number" name="expenses" id="expenses-el">
+        <br><br><br>
+        <label for="">Enter Net Worth Of Properties</label>
+        <br><br>
+        <label for="" id='ruppee'>₹</label><input type="number">
+        <br><br><br>
+        <label>Total Rental Income (put 0 if none):</label>
+        <br><br>
+        <label id='ruppee'>₹</label><input type="number" id="rental-el">
+        <br><br><br>
+        <label>Enter your net amount of emi/loan installments for the next 12 months:</label>
+        <br><br>
+        <label id='ruppee'>₹</label><input type="number" id='loan-el'>
+        <br><br><br><br>
+        <button type="submit" id="submit-btn">Submit</button>
+        <br>
+        ㅤ
+    </div>
+
+    <div id="result-el">
+        <h2>Safe/Moderate Risk Investments</h2>
+        <ol>
+            <li>
+                <p id="gold-el">Gold, Ammount you should invest in gold = x</p>
+                <img src="/assets/gold.png" alt="gold bar" id='gold-img'>
+                <p>Your portfolio should be structured in a way that helps you reach your long-term goals. Gold might have a place. However, many experts warn that you should be wary of how much gold to include in your portfolio. One rule of thumb is to limit gold to no more than 5% to 10% of your portfolio. Depending on your situation and your risk tolerance, you might be more comfortable with a bigger or smaller share of gold in your portfolio.</p>
+            </li>
+
+            <li>
+                <p id="sip-el">SIP, Ammount you should invest in SIPs = x</p>
+                <img src="/assets/sip.png" alt="sip images" id="sip-img">
+                <p>Best SIP Funds is a list of hand-picked Mutual Fund Schemes that have given better SIP returns compared to other Funds in same category. This means these Funds stick to their investment philosophy in difficult times & aren't afraid of temporary correction in the prices of the Stocks in their Portfolios & hence generate better returns over long term for their SIP investors.</p>
+            </li>
+
+            <li>
+                <p id="ppf-el">PPF, Ammount you should invest in PPFs = x</p>
+                <img src="/assets/ppf.png" alt="ppf images" id="ppf-img">
+                <p>PPF is a popular savings scheme offered by the government. It is one of the most popular tax-saving investment options covered under Section 80C. The main reason behind the introduction of PPF is to help individuals working in all sectors (including informal jobs) save and invest small amounts whenever they want. The PPF account offers a higher return than savings bank accounts.</p>
+            </li>
+
+            <li>
+                <p id="estate-el">Real Estates, Ammount you should invest in Real Estates = x</p>
+                <img src="/assets/estate.jpg" alt="real estate images" id="realestate-img">
+                <p>It is commonly agreed that allocating between 25 and 40 percent of your net worth to real estate ( including your home) allows you to capitalize on the advantages of real estate ownership while giving you plenty of flexibility to pursue other avenues of investment and wealth development.</p>
+            </li>
+
+            <li>
+                <p id="fd-el">Fixed Deposits, Ammount you should invest in FIxed Deposit = x</p>
+                <img src="/assets/fd.jpg" alt="fixed deposit images" id="fixeddeposit-img">
+                <p>Fixed deposit allows you to invest your funds for a fixed term and earn returns at a fixed interest rate. The interest rate on your FD is higher than savings account, so you can grow your savings furthermore on a monthly basis with Systematic Deposit Plan</p>
+            </li>
+
+            <li>
+                <p id="debentures-el">Debentures, Ammount you should invest in Debentures = x</p>
+                <img src="/assets/debenture.png" alt="debenture images" id="debenture-img">
+                <p>A debenture pays a regular interest rate or coupon rate return to investors. Convertible debentures can be converted to equity shares after a specified period, making them more appealing to investors. In the event of a corporation's bankruptcy, the debenture is paid before common stock shareholders.</p>
+            </li>
+
+            <li>
+                <p id="savings-el">Savings, You should always hold onto a large chunk of money: x</p>
+                <img src="/assets/savings.png" alt="savings images" id="savings-img">
+            </li>
+
+        </ol>
+        <h2>Risky Investments</h2>
+        <ol>
+            <li>
+                <p id="stocks-el">Stocks, Ammount you should invest in stocks = x</p>
+                <img src="/assets/stocks.webp" alt="stocks images" id="stock-img">
+                <p>You should have about 10-20 stocks in your portfolio. Anything less than 10 stocks would lead to less diversification of the portfolio, while above 20 may not be easy to track. Your portfolio should have only the number of stocks that you can track closely. Keeping track of your stocks is a time-consuming process. Also, make sure that you have significant positions in these stocks. There is no benefit of having a large number of stocks where each stock may make about just 0.1-0.5 per cent of your portfolio. </p>
+            </li>
+
+            <li>
+                <p id="crypto-el">Cryptocurrency, Ammount you should invest in Cryptocurrency = x</p>
+                <img src="/assets/crypto.png" alt="crypto images" id="crypto-img">
+                <p>Investors who are interested in crypto should have between 2 and 5% of their net worth in it. 2 to 3% is usually what is see for most people who are not tracking crypto markets more than once a week.</p>
+            </li>
+
+        </ol>
+
+        <h2>Income Tax Slabs</h2>
+
+        <p id="income-tax">Your salary Stands In Income Tax Slab x income tax you need to pay will be y</p>
+    </div>
+
+    <script src="/scripts/mobileMenu.js"></script>
+    <div class="addthis_inline_share_toolbox" id="shareBox"></div>
+    <div class="addthis_inline_share_toolbox_tcbk" id="shareBoxMobile"></div>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-611b976fda62d32d"></script>
+    <script src="/scripts/calculator.js"></script>
+</body>
+</html>

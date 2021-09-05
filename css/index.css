@@ -1,0 +1,382 @@
+@font-face {
+    font-family: munro;
+    src: url(/assets/munro.ttf);
+}
+
+body{
+    font-family: "munro";
+    background-image: url("/assets/background.gif");
+    background-size: cover;
+}
+
+.pageTitle{
+    text-align: center;
+    color: #ff7b25;
+    font-size: 80px;
+    padding: 10px;
+}
+
+.tagLine{
+    text-align: center;
+    color: #feb236;
+    font-size: 40px;
+    margin-top: -40px;
+    word-spacing: 5px;
+    letter-spacing: 10px;
+}
+
+#form-el{
+    background-color: rgba(128, 0, 128, 0.52);
+    width: 600px;
+    position: absolute;
+    left: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 3px solid rgb(66, 14, 14);
+    height: auto;
+}
+
+#form-el label{
+    color: #ffc25f;
+    font-size: 26px;
+    margin-right: 0px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#form-el input{
+    position: absolute;
+    left: 200px;
+    border: none;
+    height: 20px;
+    background-color: plum;
+}
+
+#ruppee{
+    color: #d84363;
+    position: absolute;
+    left: 180px;
+}
+
+#form-el button{
+    border: none;
+    color: rgb(243, 198, 83);
+    background-color: #d84363;
+    height: 40px;
+    width: 150px;
+    font-family: 'munro';
+    font-size: 24px;
+    margin-left: 200px;
+    border-radius: 8px;
+}
+
+#abt-project{
+    color: #feb236;
+    font-size: 32px;
+}
+
+#header ul li{
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid coral;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+}
+
+#inspiration-el{
+    color: rgb(202, 60, 202);
+    font-size: 32px;
+    padding: 15px;
+    text-align: center;
+}
+
+.addthis_inline_share_toolbox{
+    margin-left: 180px;
+    margin-top: auto;
+}
+
+#shareBox{
+    margin-top: 1100px;
+}
+
+.addthis_inline_share_toolbox_tcbk{
+    display: none;
+}
+
+.addthis_inline_follow_toolbox{
+    margin-left: 43%;
+}
+
+.addthis_inline_follow_toolbox_qrpg{
+    margin-left: 47%;
+}
+
+.addthis_inline_follow_toolbox_lb51{
+    margin-left: 47%;
+}
+
+.devs li{
+    color: coral;
+    font-size: 52px;
+    display: contents;
+    text-decoration: none;
+}
+
+.devs{
+    text-align: center;
+    margin-right: 7.5%;
+}
+
+.devs p{
+    text-align: center;
+    font-size: 32px;
+    color: goldenrod;
+}
+
+
+#header ul li:hover{
+    background-color: coral;
+    border: 2px solid coral;
+    border-radius: 30px;
+}
+
+#header{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -80px;
+}
+
+#header ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #d84363;
+}
+
+#close{
+    display: none;
+}
+
+#hamburger img{
+    width: 50px;
+    height: auto;
+}
+
+#hamburger{
+    background-color: #d6416100;
+    position: absolute;
+    margin-top: -480px;
+    border: none;
+    display: none;
+}
+
+#result-el{
+    background-color: indigo;
+    position: absolute;
+    top: 1500px;
+    border-radius: 8px;
+    border: 4px solid goldenrod;
+    padding: 30px;
+    display: none;
+}
+
+#result-el h2{
+    color: #d84363;
+}
+
+#result-el p{
+    color: #ffc25f;
+    font-size: 22px;
+}
+
+#result-el ol li{
+    color: indianred;
+}
+
+#gold-img{
+    margin-left: 30%;
+    height: 200px;
+    width: 200px;
+}
+
+#sip-img{
+    margin-left: 30%;
+}
+
+#ppf-img{
+    margin-left: 30%;
+}
+
+#realestate-img{
+    margin-left: 30%;
+    width: 200px;
+    height: 200px;
+}
+
+#fd-img{
+    margin-left: 50%;
+}
+
+#stock-img{
+    margin-left: 20%;
+}
+
+#crypto-img{
+    margin-left: 20%;
+    width: 500px;
+    height: 200px;
+}
+
+#debenture-img{
+    margin-left: 30%;
+}
+
+#savings-img{
+    margin-left: 40%;
+    height: 200px;
+    width: 200px;
+}
+
+@media only screen and (max-width: 500px){
+    .pageTitle{
+        font-size: 50px;
+    }
+
+    .addthis_inline_share_toolbox{
+        display: none;
+    }
+
+    .addthis_inline_share_toolbox_tcbk{
+        display: block;
+        margin-top: 280px;
+        margin-left: 20%;
+    }
+
+    .tagLine{
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+
+    #hamburger{
+        display: block;
+        top: 10;
+        margin-top: -145px;;
+    }
+
+    #close img{
+        width: 40px;
+        height: auto;
+    }
+
+    #close{
+        display: block;
+        background-color: #20272e00;
+        border: none;
+        float: left;
+    }
+
+    #header{
+        display: none;
+        position: fixed;
+        z-index: 999;
+        width: 67%;
+        left: 0;
+        top: 0;
+        margin: 0;
+        background-image: url("/assets/menuBG.gif");
+        background-size:contain;
+        height: 1000vh;
+        padding: 0.2em; 
+    }
+
+    #header ul li{
+        display: table;
+    }
+
+    #header ul{
+        margin-top: 80px;
+    }
+
+    #header ul li a{
+        color: #feb236;
+    }
+
+    .addthis_inline_follow_toolbox{
+        margin-left: 34%;
+    }
+    
+    .addthis_inline_follow_toolbox_qrpg{
+        margin-left: 40%;
+    }
+    
+    .addthis_inline_follow_toolbox_lb51{
+        margin-left: 40%;
+    }
+
+    body{
+        background-image: url("/assets/rotatedBG.gif");
+        background-size: unset;
+        background-repeat: no-repeat;
+        background-color: #3b3251;
+    }
+
+    #form-el{
+        position: absolute;
+        left: 0;
+        margin-left: 0;
+        font-size: 18px;
+        width: 450px;
+    }
+
+    #result-el{
+        width: 400px;
+    }
+
+    #sip-img{
+        margin-left: 0%;
+    }
+    
+    #ppf-img{
+        margin-left: 0%;
+    }
+    
+    #realestate-img{
+        margin-left: 0%;
+        width: 200px;
+        height: 200px;
+    }
+    
+    #fixeddeposit-img{
+        margin-left: 0%;
+        width: 300px;
+    }
+    
+    #stock-img{
+        margin-left: 0%;
+    }
+    
+    #crypto-img{
+        margin-left: 0%;
+        width: 300px;
+        height: 200px;
+    }
+    
+    #debenture-img{
+        margin-left: 0%;
+    }
+    
+    #savings-img{
+        margin-left: 10%;
+        height: 200px;
+        width: 200px;
+    }
+
+    .addthis_inline_share_toolbox_tcbk{
+        margin-top: 1100px;
+    }
+}
